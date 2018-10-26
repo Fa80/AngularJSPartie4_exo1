@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Exercice-1 Partie-4</title>
+  </head>
+    <body ng-app>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <!--count +1 = incrémentation   ng-init= count qui est égale à initialisation du compteur   -->
+        <!--ng-click   -->
+        <!--ng-init permet d'initialiser  -->
+      <button ng-click="count = count + 1" ng-init="count=390"    type="button" name="button">+</button>
+        <!--count -1 = décrémentation -->
+      <button ng-click="count = count - 1"  ng-init="count=390" type="button" name="button">-</button>
+          <p>Total Count: {{count}}</p>
+
+  <script src="assets/js/script.js"></script>
+  </body>
+</html>
